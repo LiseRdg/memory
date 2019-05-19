@@ -37,6 +37,8 @@ public class DialogDebut extends JDialog {
 	public DialogDebut(JFrame parent, String title, String message) {
         super(parent, title);
         
+		//this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
         //panel
         this.add(panelF);
         this.add(panelNbCarte);
@@ -44,9 +46,11 @@ public class DialogDebut extends JDialog {
         this.add(panelTitre);
         
         //buton
-        this.panelF.add(suite);
-        
-        
+        panelF.add(this.suite);
+        this.setSize(400,400);
+        this.setVisible(true);
+		this.setLocationRelativeTo(null);
+
         
         
         
@@ -54,7 +58,7 @@ public class DialogDebut extends JDialog {
 	}
         
 	public void actionPerformed(ActionEvent e) {
-		if (e.getSource() == this.nextt) {
+		if (e.getSource() == this.suite) {
 			this.f.setVisible(true);
 			this.dispose();
 			

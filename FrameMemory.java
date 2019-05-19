@@ -153,6 +153,7 @@ public class FrameMemory extends JFrame implements ActionListener {
 			this.listeBut.get(i).setContentAreaFilled(false);
 			this.listeBut.get(i).setBorderPainted(true);
 			this.listeBut.get(i).setFocusPainted(false);
+			this.listeBut.get(i).setBackground(Color.RED);
 			//this.listeBut.get(i).setBackground(new java.awt.Color(255, 94, 77));
 			//this.color++;
 
@@ -290,3 +291,16 @@ public class FrameMemory extends JFrame implements ActionListener {
 
 
 //pour changer nb de carte il faut creer un nouveau jeu a chaque fois
+
+
+
+
+
+
+// ce qu'il faut ajouter
+//une image sur chaque button/carte 
+//du son ?
+//modifier la mise en page du score
+//mettre des img à la place des nombre quand on retourne les cartes
+//la couleur "sous les carte" dans le gap
+

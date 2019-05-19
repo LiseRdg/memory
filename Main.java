@@ -8,7 +8,7 @@ public class Main {
 		FrameMemory memory = new FrameMemory();
 		//memory.setVisible(true);
 		
-		DialogDebut debut = new DialogDebut(memory, null, null);
+		DialogDebut debut = new DialogDebut(memory, "Mon Memory", "message");
 		debut.setVisible(true);
 		
 		}
