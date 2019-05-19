@@ -298,6 +298,7 @@ public class FrameMemory extends JFrame implements ActionListener {
 
 
 // ce qu'il faut ajouter
+//mise en page de la Jdialog
 //une image sur chaque button/carte 
 //du son ?
 //modifier la mise en page du score
